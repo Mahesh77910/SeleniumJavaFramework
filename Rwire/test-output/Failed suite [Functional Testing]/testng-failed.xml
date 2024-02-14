@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Failed suite [Functional Testing]]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.rwire.utilities.Reporting"/>
+  </listeners>
+  <test thread-count="5" name="RwireTest(failed)(failed)">
+    <classes>
+      <class name="com.rwire.testCases.TC_SmartsearchTest_002">
+        <methods>
+          <include name="SearchbarTest5"/>
+          <include name="SearchbarTest4"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_SmartsearchTest_002 -->
+      <class name="com.rwire.testCases.TC_ExpertPeopleO_006">
+        <methods>
+          <include name="CorrespondentTest"/>
+          <include name="AssigneeAppTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertPeopleO_006 -->
+      <class name="com.rwire.testCases.TC_ExpertOthersTest_10">
+        <methods>
+          <include name="RelationalDocTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertOthersTest_10 -->
+      <class name="com.rwire.testCases.TC_ExpertNumbersTest_007">
+        <methods>
+          <include name="PCTAppNoTest"/>
+          <include name="PCTPubNoTest"/>
+          <include name="setup"/>
+          <include name="ProvisionalAppNoTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertNumbersTest_007 -->
+      <class name="com.rwire.testCases.TC_ExpertDatesTest_009">
+        <methods>
+          <include name="PublicationYearTest"/>
+          <include name="PublicationDateTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertDatesTest_009 -->
+      <class name="com.rwire.testCases.TC_ExpertAddressTest_008">
+        <methods>
+          <include name="setup"/>
+          <include name="CurrentAssigneeAddTest"/>
+          <include name="AttorneyagentAddTest"/>
+          <include name="CorrespondentAddTest"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertAddressTest_008 -->
+      <class name="com.rwire.testCases.TC_ExpertClassesTest_005">
+        <methods>
+          <include name="ECLTest"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+          <include name="JCLTest"/>
+        </methods>
+      </class> <!-- com.rwire.testCases.TC_ExpertClassesTest_005 -->
+    </classes>
+  </test> <!-- RwireTest(failed)(failed) -->
+</suite> <!-- Failed suite [Failed suite [Functional Testing]] -->

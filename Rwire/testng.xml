@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Functional Testing">
+
+<listeners>
+	<listener class-name="com.rwire.utilities.Reporting"/>	
+</listeners>	
+  <test thread-count="5" name="RwireTest">
+    <classes>
+      <class name="com.rwire.testCases.TC_LoginTest_001"/>
+      <class name="com.rwire.testCases.TC_ForgotPasswordTest"/>
+      <class name="com.rwire.testCases.TC_SmartsearchTest_002"/>
+      <class name="com.rwire.testCases.TC_ExpertTextTest_004"/>
+      <class name="com.rwire.testCases.TC_ExpertClassesTest_005"/>
+      <class name="com.rwire.testCases.TC_BotanicTest"/>
+      <class name="com.rwire.testCases.TC_ExpertPeopleO_006"/>
+      <class name="com.rwire.testCases.TC_ExpertNumbersTest_007"/>
+      <class name="com.rwire.testCases.TC_CitationTest"/>
+      <class name="com.rwire.testCases.TC_ExpertAddressTest_008"/>
+      <class name="com.rwire.testCases.TC_ExpertDatesTest_009"/>
+      <class name="com.rwire.testCases.TC_ExpertOthersTest_10"/>
+      <class name="com.rwire.testCases.TC_ExpertCountriesTest_11"/>
+      <class name="com.rwire.testCases.TC_DesignatedStatesEPTest"/>
+      <class name="com.rwire.testCases.TC_DesignatedStatesPCT"/>
+      <class name="com.rwire.testCases.TC_PatentStateTest_12"/>
+      <class name="com.rwire.testCases.TC_PatentStatusTest"/>
+      <class name="com.rwire.testCases.TC_PatentTypeTest"/>
+      <class name="com.rwire.testCases.TC_PatentPubTest"/>
+      <!--class name="com.rwire.testCases.TC_NormalExportTest"/-->
+      <!--class name="com.rwire.testCases.TC_EmailExportTest"/-->
+      <class name="com.rwire.testCases.TC_FieldedTest_14"/>
+      <class name="com.rwire.testCases.TC_FieldedTest_15"/>
+      <class name="com.rwire.testCases.TC_NumberSearch_17"/>
+      <class name="com.rwire.testCases.TC_NumberSearch_18"/>
+      <class name="com.rwire.testCases.TC_NoFileUploadTest"/>
+      <class name="com.rwire.testCases.TC_NoTextFileUploadTest"/>
+      <class name="com.rwire.testCases.TC_PatentViewTest"/>
+      <class name="com.resultspage.testCases.TC_TableTest"/>
+      <class name="com.resultspage.testCases.TC_Sort"/>
+      <class name="com.resultspage.testCases.TC_QuickTest"/>
+      <class name="com.resultspage.testCases.TC_ClassSTest"/>
+      <class name="com.resultspage.testCases.TC_KeywordSTest"/>
+      </classes>
+  </test> <!-- SampleTest -->
+</suite> <!-- TestSuite1 -->
