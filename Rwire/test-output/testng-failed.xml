@@ -3,12 +3,14 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.resultspage.testCases.TC_Insights">
+      <class name="com.resultspage.testCases.TC_KeywordSTest">
         <methods>
-          <include name="CogniGraphsTest"/>
           <include name="setup"/>
+          <include name="KeywordSuggTest2"/>
+          <include name="teardown"/>
+          <include name="KeywordSuggTest1"/>
         </methods>
-      </class> <!-- com.resultspage.testCases.TC_Insights -->
+      </class> <!-- com.resultspage.testCases.TC_KeywordSTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

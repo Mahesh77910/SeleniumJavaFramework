@@ -74,12 +74,12 @@ public class BaseClass
   }
  
   
-//  @AfterClass()
-//  public void teardown()
-//  {
-//	  driver.quit();
-//	 
-//  }
+  @AfterClass()
+  public void teardown()
+  {
+	  driver.quit();
+	 
+  }
   
   public void PublicationNo() throws InterruptedException, IOException
   {
@@ -126,8 +126,7 @@ public class BaseClass
         Log.info("Login test Failed");
     	CaptureScreen(driver, "loginTest");
        	Assert.assertTrue(false);
-//       	System.out.println("Login Failed");
-//       	Log.info("Login test Failed");
+
        	
        }
    }

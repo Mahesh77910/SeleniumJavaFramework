@@ -24,18 +24,18 @@ public class TC_ClassSTest extends BaseClass
 		 ClassesSuggestion k = new ClassesSuggestion(driver);
 		 k.ClickClassesbtn();
 		 
-		 Thread.sleep(3000);
+		 Thread.sleep(2000);
 		
 		 driver.findElement(By.xpath("//input[@placeholder='Search a class']")).sendKeys("H04");
 		 
 		 k.Clicksearch();
-		 Thread.sleep(1000);		 
+		 Thread.sleep(2000);		 
 		 driver.findElement(By.xpath("//input[@value='H04B1/0003']")).click();
 		 driver.findElement(By.xpath("//input[@value='H04B1/0014']")).click();
 		 
 		 k.ClickApplybtn();
 		 fs.Searchbutton();
-		 Thread.sleep(1000);
+		 Thread.sleep(4000);
 		 
 		 PublicationNo(); 
 		 if(n>1)
@@ -72,7 +72,7 @@ public class TC_ClassSTest extends BaseClass
 	    ClassesSuggestion k1 = new ClassesSuggestion(driver);
 		k1.ClickClassesbtn();
 		 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		
 		driver.findElement(By.xpath("//input[@placeholder='Search a class']")).sendKeys("B04");
 		k1.Clicksearch();
@@ -85,7 +85,7 @@ public class TC_ClassSTest extends BaseClass
 		
 		k1.ClickApplybtn();
 		fs.Searchbutton();
-		Thread.sleep(1000);
+		Thread.sleep(4000);
 		
 		 PublicationNo(); 
 		 if(n>1)
@@ -124,7 +124,7 @@ public class TC_ClassSTest extends BaseClass
 		ClassesSuggestion k2 = new ClassesSuggestion(driver);
 		k2.ClickClassesbtn();
 			 
-		Thread.sleep(3000);
+		Thread.sleep(2000);
 		driver.findElement(By.xpath("//input[@placeholder='Search a class']")).sendKeys("D05");
 		k2.Clicksearch(); 
 		
@@ -137,7 +137,7 @@ public class TC_ClassSTest extends BaseClass
 		  
 		k2.ClickApplybtn();
 		fs.Searchbutton();
-		Thread.sleep(1000);
+		Thread.sleep(3000);
 		
 		 PublicationNo(); 
 		 if(n>1)
@@ -184,7 +184,7 @@ public class TC_ClassSTest extends BaseClass
     	driver.findElement(By.xpath("//input[@value='A47B2200/009']")).click();
     	k3.ClickApplybtn();
     	fs.Searchbutton();
-		Thread.sleep(2000);
+		Thread.sleep(3000);
 		
 		 PublicationNo(); 
 		 if(n>1)

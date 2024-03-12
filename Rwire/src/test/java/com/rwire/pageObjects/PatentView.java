@@ -18,7 +18,7 @@ public class PatentView
 	  }
 	
 	 //Patent No
-	 @FindBy(how = How.CLASS_NAME , using ="publication-no")
+	 @FindBy(how = How.XPATH , using ="//div[@id='US10270479B2']")
 	 @CacheLookup
 	 WebElement Pub; 
 	 public void ClickPatentNo()
